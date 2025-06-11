@@ -5,10 +5,10 @@ public class ReflectingActivity : Activity
     // Child class responsible for storing and showing data related to the reflecting activity.
 
     // Attributes --------------------------------------------------------------------------------------------------------------
-    List<string> _prompts = new List<string>();
-    List<string> _questions = new List<string>();
-    List<int> _usedPrompts = new List<int>();    // <- Create new lists to store what prompts and questions have been used.
-    List<int> _usedQuestions = new List<int>();
+    private List<string> _prompts = new List<string>();
+    private List<string> _questions = new List<string>();
+    private List<int> _usedPrompts = new List<int>();    // <- Create new lists to store what prompts and questions have been used.
+    private List<int> _usedQuestions = new List<int>();
 
 
     // Constructors -----------------------------------------------------------------------------------------------------------

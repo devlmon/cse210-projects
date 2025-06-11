@@ -5,9 +5,9 @@ public class ListingActivity : Activity
     // Child class responsible for storing and showing data related to the listing activity.
 
     // Attributes --------------------------------------------------------------------------------------------------------------
-    int _count;
-    List<string> _prompts = new List<string>();
-    List<int> _usedPrompts = new List<int>();
+    private int _count;
+    private List<string> _prompts = new List<string>();
+    private List<int> _usedPrompts = new List<int>();
 
 
     // Constructors -----------------------------------------------------------------------------------------------------------
